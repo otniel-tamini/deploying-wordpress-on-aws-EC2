@@ -4,7 +4,7 @@
 
 This tutorial provides a step-by-step guide to deploying WordPress on an Amazon EC2 instance.
 
-
+![AWS Console Dashboard](install wordpress.jpeg)
 
 
 
