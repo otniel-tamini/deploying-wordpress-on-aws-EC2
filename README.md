@@ -4,7 +4,8 @@
 
 This tutorial provides a step-by-step guide to deploying WordPress on an Amazon EC2 instance.
 
-![AWS Console Dashboard](install wordpress.jpeg)
+
+![install wordpress](https://github.com/user-attachments/assets/3b62c9e0-20f9-423a-9212-f5d152e41d6c)
 
 
 
@@ -36,7 +37,8 @@ This tutorial provides a step-by-step guide to deploying WordPress on an Amazon 
      - **Port 80** (HTTP)
      - **Port 443** (HTTPS, optional but recommended)
 
-   ![Security Group Configuration](path/to/security-group-configuration.png)
+   ![image](https://github.com/user-attachments/assets/ad32d3e1-6e06-479b-9b80-f536e863bc46)
+
 
 5. **Download the key pair (PEM file):**
    - Ensure you download the PEM file for SSH connection and keep it secure.
@@ -64,7 +66,7 @@ This tutorial provides a step-by-step guide to deploying WordPress on an Amazon 
    ```
    - Verify Apache is running by accessing the public IP of your EC2 instance in a web browser.
 
-   ![Apache Test Page](path/to/apache-test-page.png)
+![image](https://github.com/user-attachments/assets/f0b15d3d-f5f8-4130-9bbd-923eb81b8569)
 
 3. **Install MySQL:**
    ```bash
@@ -137,10 +139,11 @@ This tutorial provides a step-by-step guide to deploying WordPress on an Amazon 
 ## Step 6: Complete WordPress Installation
 
 1. **Access WordPress via a browser:**
-   - Visit `http://instance-public-ip`.
+   - Visit `http://instance-public-ip/index.php`.
    - Follow the setup instructions to finalize installation (choose language, create admin user, etc.).
 
-   ![WordPress Setup](path/to/wordpress-setup.png)
+   ![Screenshot 2024-09-24 at 15-51-01 WordPress › Installation](https://github.com/user-attachments/assets/17f7382c-7b37-495d-85b5-1c6bf3fc5376)
+
 
 ## Step 7: Domain Configuration and SSL (Optional)
 
@@ -159,12 +162,4 @@ This tutorial provides a step-by-step guide to deploying WordPress on an Amazon 
 
 Your WordPress instance on AWS EC2 is now up and running. You can access your site, customize themes, install plugins, and add content.
 
-Feel free to reach out if you have any questions or need further assistance!
-```
 
-### Notes on Images
-- **Placeholders:** Replace `path/to/your-image.png` with the actual paths to your images.
-- **Images Usage:** Limit the number of images to those that clarify the steps, such as the AWS Console, security group settings, and the Apache test page.
-- **Image Format:** Use PNG or JPG format for clear visuals.
-
-If you need help with specific images or further modifications, let me know!
